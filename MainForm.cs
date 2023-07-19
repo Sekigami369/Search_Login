@@ -20,7 +20,7 @@ namespace Search_Login
             string[] keywords = searchQuery.Split(' ');
 
             string baseQuery = "SELECT * FROM TestTable WHERE ";
-            string dynamicCondition = "";
+            string dynamicCondition = "" ;
 
             List<SqlParameter> parameters = new List<SqlParameter>();
 
